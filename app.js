@@ -2,9 +2,9 @@
      template: '<h1>Hello {{firstName}}</h1>', // double curly braces, similar to interpolation in React
      data() { // a function that returns an object
          return {
-             firstName: 'John'
+             firstName: 'John',
          } 
-     }
+     },
  })
 
  app.mount('#app')
